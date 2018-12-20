@@ -101,6 +101,14 @@ nav ul li a.active::before {
     border: 2px solid #fff;
     z-index: 6;
 }
+.github {
+    font-size: 2rem;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    z-index: 11;
+}
 section{
     min-height: 100vh;
     color: #ddd;
@@ -133,7 +141,7 @@ section p:first-of-type::first-letter {
   font-size: 150%;
   padding: 0 15px;
   margin-right: 10px;
-  border: 1px solid rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.3);
   line-height: 0;
 
 }
