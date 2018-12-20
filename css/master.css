@@ -21,6 +21,8 @@ main{
     justify-content: center;
     align-items: center;
     color: #fff;
+    position: relative;
+    z-index: 5;
 }
 main *{
     z-index: 3;
@@ -58,13 +60,28 @@ nav ul li a{
     font-size: 20px;
     color: #fff;
     text-decoration: none;
-    padding: 5px 0;
+    padding: 4px 0;
     margin: 0 15px;
     display: inline-block;
     vertical-align: middle;
+    opacity: 0.5;
+    position: relative;
+}
+nav ul li a:hover{
+    opacity: 1;
 }
 nav ul li a.active{
-    font-size: 35px;
+    font-size: 30px;
+    opacity: 1;
+}
+nav ul li a.active::before {
+    content: '';
+    width: 30px;
+    position: absolute;
+    height: 1px;
+    background: #fff;
+    right: -35px;
+    top: 50%;
 }
 .logo{
     position: fixed;
@@ -82,7 +99,7 @@ nav ul li a.active{
     padding-left: 6px;
     padding-top: 4px;
     border: 2px solid #fff;
-    z-index: 3;
+    z-index: 6;
 }
 section{
     min-height: 100vh;
