@@ -13,7 +13,7 @@ body, html{
     box-sizing: border-box;
 }
 main{
-    background: url('../img/10.jpeg');
+    background: url('../img/10.jpeg') #3b0b61;
     min-height: 100vh;
     background-size: cover;
     display: flex;
