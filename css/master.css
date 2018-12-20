@@ -178,7 +178,7 @@ section:nth-of-type(3){
 section:nth-of-type(4){
     background: url('../img/4.jpeg');
     background-size: cover;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 2;
 }
 section:nth-of-type(4) p{
