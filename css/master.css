@@ -9,7 +9,7 @@ body,html{
     box-sizing: border-box;
 }
 main{
-    background: url('../img/10.jpg');
+    background: url('../img/10.jpeg');
     min-height: 100vh;
     background-size: cover;
     display: flex;
@@ -101,7 +101,7 @@ section::after,main::after{
     z-index: 1;
 }
 section:nth-of-type(1){
-  background: url('../img/6.jpg');
+  background: url('../img/6.jpeg');
   background-size: cover;
   font-size: 35px;
 }
@@ -117,7 +117,7 @@ section p:first-of-type::first-letter {
 
 }
 section:nth-of-type(2){
-    background: url('../img/9.jpg');
+    background: url('../img/9.jpeg');
     background-size: cover;
 }
 section:nth-of-type(2), section:nth-of-type(5){
@@ -129,12 +129,12 @@ section:nth-of-type(2) p, section:nth-of-type(5) p{
     width: 50%;
 }
 section:nth-of-type(3){
-    background: url('../img/11.jpg');
+    background: url('../img/11.jpeg');
     background-size: cover;
     font-size: 25px;
 }
 section:nth-of-type(4){
-    background: url('../img/4.jpg');
+    background: url('../img/4.jpeg');
     background-size: cover;
     font-size: 20px;
     line-height: 2;
@@ -143,11 +143,11 @@ section:nth-of-type(4) p{
     width: 33.33%;
 }
 section:nth-of-type(5){
-    background: url('../img/1.jpg');
+    background: url('../img/1.jpeg');
     background-size: cover;
 }
 section:nth-of-type(6){
-    background: url('../img/5.jpg');
+    background: url('../img/5.jpeg');
     background-size: cover;
     font-size: 25px;
 }
