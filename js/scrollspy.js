@@ -5,7 +5,6 @@ document.addEventListener("scroll", function() {
         var target = targets[i];
         var position = target.getBoundingClientRect()
         if(position.top >= 0 && position.top <= 0.5 * height) {
-            console.log(target)
             var indicators = document.querySelectorAll("nav ul li a");
             for(var j = 0, indicatorsLength = indicators.length; j < indicatorsLength; j++) {
                 var indicator = indicators[j];
