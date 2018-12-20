@@ -8,6 +8,7 @@ body, html{
     margin: 0;
     background: #3b0b61;
     font-family: 'Abel';
+    scroll-behavior: smooth;
 }
 *{
     box-sizing: border-box;
