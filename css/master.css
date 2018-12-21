@@ -233,8 +233,9 @@ p{
         flex-wrap: wrap;
     }
     h1{
-        font-size: 50px;
+        font-size: 44px;
         -webkit-text-stroke: 2px white;
+        letter-spacing: -2px;
     }
     h2{
         font-size: 20px;
@@ -260,7 +261,7 @@ p{
     }
     main a{
         left: 30px;
-        bottom: 30px;
+        bottom: 50px;
     }
     section:nth-of-type(n) p{
         width: 100%;
@@ -294,7 +295,7 @@ p{
     nav ul li a.active::before {
         width: 1px;
         height: 15px;
-        right: -100%;
-        top: 100%;
+        top: 95%;
+        right: -6px;
     }
 }
