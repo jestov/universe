@@ -6,7 +6,7 @@ body, html{
     position: relative;
     height: 100%;
     margin: 0;
-    background: #3b0b61;
+    background: #563d7c;
     font-family: 'Abel';
     scroll-behavior: smooth;
 }
@@ -14,7 +14,7 @@ body, html{
     box-sizing: border-box;
 }
 main{
-    background: url('../img/10.jpeg') #3b0b61;
+    background: url('../img/10.jpeg') #563d7c;
     min-height: 100vh;
     background-size: cover;
     display: flex;
@@ -153,7 +153,6 @@ section p:first-of-type::first-letter {
   margin-right: 10px;
   border: 1px solid rgba(255,255,255,0.3);
   line-height: 0;
-
 }
 section:nth-of-type(2){
     background: url('../img/9.jpeg');
@@ -227,9 +226,6 @@ p{
     z-index: 2;
     color: #ddd;
 }
-
-
-
 /* media queries */
 @media (max-width: 769px){
     section{
