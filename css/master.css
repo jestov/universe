@@ -221,8 +221,55 @@ footer a:hover{
     font-family: Anurati;
     font-size: 26px;
     letter-spacing: -0.5px;
+    line-height: 1;
 }
 p{
     z-index: 2;
     color: #ddd;
+}
+
+
+
+/* media queries */
+@media (max-width: 769px){
+    section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 50px;
+        -webkit-text-stroke: 2px white;
+    }
+    h2{
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .logo, .github{
+        top: 20px;
+    }
+    .logo{
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 35px;
+        padding-top: 0;
+        line-height: 46px;
+    }
+    .github{
+        right: 20px;
+    }
+    main a{
+        left: 30px;
+        bottom: 30px;
+    }
+    section:nth-of-type(n) p{
+        width: 100%;
+        margin: 15px 0;
+        font-size: 15px;
+        line-height: 1.5;
+    }
 }
